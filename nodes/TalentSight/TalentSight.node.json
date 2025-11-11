@@ -6,12 +6,12 @@
 	"resources": {
 		"credentialDocumentation": [
 			{
-				"url": "https://docs.n8n.io/integrations/community-nodes/installation/"
+				"url": "https://talsight.com/blog/talentsight-n8n-integration"
 			}
 		],
 		"primaryDocumentation": [
 			{
-				"url": "https://docs.n8n.io/integrations/community-nodes/installation/"
+				"url": "https://talsight.com/blog/talentsight-n8n-integration"
 			}
 		]
 	}

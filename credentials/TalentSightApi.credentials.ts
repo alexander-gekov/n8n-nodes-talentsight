@@ -9,10 +9,7 @@ import {
 export class TalentSightApi implements ICredentialType {
 	name = 'talentSightApi';
 	displayName = 'TalentSight API';
-	// Uses the link to this tutorial as an example
-	// Replace with your own docs links when building your own nodes
-	documentationUrl =
-		'https://docs.n8n.io/integrations/creating-nodes/build/declarative-style-node/';
+	documentationUrl = 'https://talsight.com/blog/talentsight-n8n-integration';
 	properties: INodeProperties[] = [
 		{
 			displayName: 'API Key',
@@ -20,6 +17,12 @@ export class TalentSightApi implements ICredentialType {
 			type: 'string',
 			default: '',
 			typeOptions: { password: true },
+		},
+		{
+			displayName: 'Server',
+			name: 'server',
+			type: 'string',
+			default: 'https://app.talsight.com/api/v1',
 		},
 	];
 	authenticate: IAuthenticateGeneric = {
